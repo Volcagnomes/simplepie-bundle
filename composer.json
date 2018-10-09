@@ -3,7 +3,7 @@
   "type": "library",
   "description": "Symfony Bundle to help using SimplePie RSS library",
   "keywords": ["simplepie", "symfony", "bundle"],
-  "license": "GPLv3",
+  "license": "GPL-3.0-only",
   "version": "0.1.0",
   "authors": [
     {"name": "Volca Gnomes", "email": "volcagnomes@gmail.com"}
