@@ -1,0 +1,36 @@
+{
+  "name": "simplepie-bundle",
+  "type": "library",
+  "description": "Symfony Bundle to help using SimplePie RSS library",
+  "keywords": ["simplepie", "symfony", "bundle"],
+  "license": "GPLv3",
+  "version": "0.1.0",
+  "authors": [
+    {"name": "Volca Gnomes", "email": "volcagnomes@gmail.com"}
+  ],
+  "dependencies": {
+    
+  },
+  "require": {
+    "simplepie/simplepie": "^1.5"
+  },
+  "require-dev": {
+    "matthiasnoback/symfony-dependency-injection-test": "^3.0",
+    "phpunit/phpunit": "^7.0",
+    "symfony/http-kernel": "^4.1",
+    "symfony/phpunit-bridge": "^4.1",
+    "symfony/framework-bundle": "^4.1",
+    "doctrine/annotations": "^1.6",
+    "friendsofphp/php-cs-fixer": "^2.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "Volcagnomes\\SimplePieBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Volcagnomes\\SimplePieBundle\\Tests\\": "tests/"
+    }
+  }
+}
