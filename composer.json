@@ -1,5 +1,5 @@
 {
-  "name": "simplepie-bundle",
+  "name": "volcagnomes/simplepie-bundle",
   "type": "library",
   "description": "Symfony Bundle to help using SimplePie RSS library",
   "keywords": ["simplepie", "symfony", "bundle"],
